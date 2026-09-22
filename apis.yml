@@ -1,23 +1,70 @@
 aid: mercurial
+
 name: Mercurial
-description: 'Mercurial is a company surfaced via the API Evangelist harvest backlog (source: version-control)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Mercurial is a free, distributed source control management tool. It efficiently handles projects of any size, offering fast, intuitive commands and extensibility through extensions. Written primarily in Python with parts in C and Rust, Mercurial runs on all major platforms and is open‑source under GPL‑2.0 or later.'
+
 url: https://raw.githubusercontent.com/api-evangelist/mercurial/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:version-control
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-22'
+
 modified: '2026-09-22'
+
 tags:
 - Company
-apis: []
+- VersionControl
+- OpenSource
+- Distributed
+- CrossPlatform
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: ChangeLog
+  url: changelog/mercurial-changelog.yml
+- type: SDKs
+  url: packages/mercurial-packages.yml
+- type: Packages
+  url: packages/mercurial-packages.yml
+- type: Support
+  url: https://www.mercurial-scm.org/help/topics.html
+- type: GitHubOrganization
+  url: https://github.com/mercurial-scm
+- type: DomainSecurity
+  url: security/mercurial-domain-security.yml
 - type: Website
   url: https://www.mercurial-scm.org/
+- type: Documentation
+  url: https://www.mercurial-scm.org/guide
+- type: GettingStarted
+  url: https://www.mercurial-scm.org/guide
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: The Mercurial website provides HTML documentation but no machine‑readable API specification.
+  evidence:
+    - url: https://www.mercurial-scm.org/guide
+      status: 200
+  checked: 2026-09-22
+x-enrichment:
+  date: '2026-09-22'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

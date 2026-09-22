@@ -1,0 +1,31 @@
+generated: '2026-09-22'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/mercurial-scm
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (mercurial-scm.org,
+  security/mercurial-domain-security.yml) or its accepted GitHub org (mercurial-scm).'
+packages:
+- name: mercurial
+  registry: pypi
+  url: https://pypi.org/project/mercurial/
+  language: Python
+  official: true
+  version: 7.2.4
+  published: '2026-08-11'
+  evidence: metadata names mercurial-scm.org
+- name: mercurial
+  registry: npm
+  url: https://www.npmjs.com/package/mercurial
+  language: JavaScript
+  official: false
+  version: 0.0.2
+  published: '2012-09-07'
+  evidence: 'name match only: the metadata names neither the provider''s domain nor its GitHub org'
+- name: mercurial
+  registry: crates
+  url: https://crates.io/crates/mercurial
+  language: Rust
+  official: false
+  version: 0.0.0
+  published: '2021-07-27'
+  evidence: 'name match only: the metadata names neither the provider''s domain nor its GitHub org'

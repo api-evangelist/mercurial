@@ -1,0 +1,58 @@
+generated: '2026-09-22'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.mercurial-scm.org/relnotes
+sources:
+- https://www.mercurial-scm.org/relnotes
+entries:
+- breaking: false
+  highlights:
+  - Mercurial 7.2 (2026-01-29)
+  date: '2026-01-29'
+- breaking: false
+  highlights:
+  - Mercurial 7.1 (2025-08-04)
+  date: '2025-08-04'
+- breaking: false
+  highlights:
+  - Mercurial 7.0 (2025-03-25)
+  date: '2025-03-25'
+- breaking: false
+  highlights:
+  - Mercurial 6.9 (2024-11-20)
+  date: '2024-11-20'
+- breaking: false
+  highlights:
+  - Mercurial 6.8 (2024-07-08)
+  date: '2024-07-08'
+- breaking: false
+  highlights:
+  - Mercurial 6.7 (2024-03-15)
+  date: '2024-03-15'
+- breaking: false
+  highlights:
+  - Mercurial 6.6 (2023-11-07)
+  date: '2023-11-07'
+- breaking: false
+  highlights:
+  - Mercurial 6.5 (2023-07-06)
+  date: '2023-07-06'
+- breaking: false
+  highlights:
+  - Mercurial 6.4 (2023-03-23)
+  date: '2023-03-23'
+- breaking: false
+  highlights:
+  - Mercurial 6.3 (2022-11-09)
+  date: '2022-11-09'
+- breaking: false
+  highlights:
+  - Mercurial 6.2 (2022-07-11)
+  date: '2022-07-11'
+- breaking: false
+  highlights:
+  - Mercurial 6.1 (2022-02-28)
+  date: '2022-02-28'
+current_version: '7.2'
+note: Versioning scheme follows major.minor numeric releases.
+docs: https://www.mercurial-scm.org/relnotes
